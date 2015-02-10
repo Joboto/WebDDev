@@ -1,8 +1,9 @@
  body{background-color:#EAEAEA;color:black;font-family:Sans-serif;}
  #container{width:80%;margin:auto;background-color:white;}
  #header{width:100%;}
- #navigation{float:left;width:20%;background-image:url('../images/vinewhiteonblack.png');
-  background-repeat:no-repeat;background-size:100% 100%;margin-left:5px }
+ #navigation{float:left;width:20%;background-size:100% 100%;margin-left:5px;background-color:#DADADA;color:black; }
+ #navigation a:link{color:black;}
+ #navigation ul{list-style-type:none;}
  #navright{float:right;width:20%;background-image:url('../images/kells3.gif');
   background-repeat:no-repeat;background-size:80% 80%;margin-right:5px;}
  #baighdiv{margin:auto; background-image:url('../images/isleornsay.jpg');display:none;
