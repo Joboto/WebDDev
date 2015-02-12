@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Movement - just move...</title>
-	<link rel="stylesheet" href="css/structure.css" type="text/css" />
-	<link rel="stylesheet" href="css/navigation.css" type="text/css" />
+	<link rel="stylesheet" href="../css/structure.css" type="text/css" />
+	<link rel="stylesheet" href="../css/navigation.css" type="text/css" />
 </head>
 <body>
 <div id="container">
@@ -32,22 +32,26 @@
 	<div id="Main">
 		<div id="navigation">
 			<ul>
-				<li><a href="about.html">About</a></li>
-				<li><a href="courses">Courses</a></li>
-				<li><a href="equipment">Equipment</a></li>
-				<li><a href="events">Events</a></li>
-				<li><a href="articles">Articles</a></li>
-				<li><a href="links.html">Links</a></li>
-				<li><a href="contact.php">Contact</a></li>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="../courses">Courses</a></li>
+				<li><a href="../equipment">Equipment</a></li>
+				<li><a href="../events">Events</a></li>
+				<li><a href="../articles">Articles</a></li>
+				<li><a href="../links.html">Links</a></li>
+				<li><a href="../contact.php">Contact</a></li>
 			</ul>
 		</div>
-		<div id="Maincontainer">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Su0vLwyQTTI" frameborder="0" allowfullscreen></iframe>
-			<!--<iframe width="420" height="315" src="https://www.youtube.com/embed/fdWDvH8AITU" frameborder="0" allowfullscreen></iframe>-->
-			<p>Here you will find everything you need to get moving! From parkour to gymnastic strength to the subtleties of the Feldenkrais method.
-			Check out our <a href="#">courses</a> page to see what's available and get started! <br>For an overview of our philosophy and approach, 
-			have a look at our <a href="#about">bio</a>.
-			</p>
+		<div id="maincontainer">
+			<h2>Article 1</h2>
+			<p>Stuff about article...</p>
+			<a href="#">Some Link or other...</a>
+			<h2>Article 2</h2>
+			<p>Stuff about article...</p>
+			<a href="#">Some Link or other...</a>
+			<h2>Article 3</h2>
+			<p>Stuff about article...</p>
+			<a href="#">Some Link or other...</a>
+			
 		</div>
 	</div>
 	<div style="clear:both"></div>
