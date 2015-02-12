@@ -32,22 +32,27 @@
 	<div id="Main">
 		<div id="navigation">
 			<ul>
-				<li><a href="about.html">About</a></li>
-				<li><a href="courses">Courses</a></li>
-				<li><a href="equipment">Equipment</a></li>
-				<li><a href="events">Events</a></li>
-				<li><a href="articles">Articles</a></li>
-				<li><a href="links.html">Links</a></li>
-				<li><a href="contact.php">Contact</a></li>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="../courses">Courses</a></li>
+				<li><a href="../equipment">Equipment</a></li>
+				<li><a href="../events">Events</a></li>
+				<li><a href="../articles">Articles</a></li>
+				<li><a href="../links.html">Links</a></li>
+				<li><a href="../contact.php">Contact</a></li>
 			</ul>
 		</div>
 		<div id="maincontainer">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Su0vLwyQTTI" frameborder="0" allowfullscreen></iframe>
-			<!--<iframe width="420" height="315" src="https://www.youtube.com/embed/fdWDvH8AITU" frameborder="0" allowfullscreen></iframe>-->
-			<p>Here you will find everything you need to get moving! From parkour to gymnastic strength to the subtleties of the Feldenkrais method.
-			Check out our <a href="#">courses</a> page to see what's available and get started! <br>For an overview of our philosophy and approach, 
-			have a look at our <a href="#about">bio</a>.
-			</p>
+			<h1>Courses</h1>
+			<h2>Handstands</h2>
+			<p>Course synopsis...</p>
+			<a href="#">Some Link or other...</a>
+			<h2>Parkour Foundations</h2>
+			<p>Course synopsis...</p>
+			<a href="#">Some Link or other...</a>
+			<h2>Gymnastic Rings</h2>
+			<p>Course synopsis...</p>
+			<a href="#">Some Link or other...</a>
+			
 		</div>
 	</div>
 	<div style="clear:both"></div>
