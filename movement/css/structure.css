@@ -1,5 +1,5 @@
- body{background-color:#EAEAEA;color:black;font-family:Sans-serif;}
- #container{width:80%;margin:auto;background-color:white;}
+ body{background-image:url("../images/movMonkei.jpg");color:black;font-family:Sans-serif;}
+ #container{width:80%;margin:auto;}
  #header{width:100%;}
  #logo{float:left;background-color:black;color:white;width:30%;padding-left:5%;font-family:"Arial Black", Gadget, sans-serif;}
  #loginbox{float:right;font-size:75%;}
