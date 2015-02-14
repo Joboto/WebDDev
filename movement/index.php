@@ -8,10 +8,10 @@
 <body>
 <div id="container">
 	<div id="header">
-		<div id="logo">
+		<a href="#" id="logo"><div>
 			<h1>MOVEMENT</h1>
 			<h4>Start yours...</h4>
-		</div>
+		</div></a>
 	<div id="loginbox">
 		<h4 style="margin:0">Login to view your account.</h4>
 		<form>
