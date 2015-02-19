@@ -29,7 +29,7 @@
 	</div>
 	</div>
 	<div style="clear:both"></div>
-	<div id="Main">
+	<div id="main">
 		<div id="navigation">
 			<ul>
 				<li><a href="about.html">About</a></li>
@@ -41,8 +41,16 @@
 				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
-		<div id="Maincontainer">
-			<form>This will be a contact form</form>
+		<div id="maincontainer">
+			<form name="contactForm" method="post" action="scripts/contact.php">
+				<label for="name" style="width:25%;text-align:left;">Name</label><br>
+				<input type="text" name="name" /><br>
+				<label for="email" style="width:25%;text-align:left;">Email address</label><br>
+				<input type="email" name="email"/><br>
+				<label for="comments" style="width:25%;text-align:left;">Comments</label><br>
+				<textarea name="comments" maxlength="1000" cols="50" rows="10"></textarea><br>
+				<input type="Submit" value="Submit"/>
+			</form>
 		</div>
 	</div>
 	<div style="clear:both"></div>

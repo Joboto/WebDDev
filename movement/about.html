@@ -29,7 +29,7 @@
 	</div>
 	</div>
 	<div style="clear:both"></div>
-	<div id="Main">
+	<div id="main">
 		<div id="navigation">
 			<ul>
 				<li><a href="about.html">About</a></li>

@@ -29,7 +29,7 @@
 	</div>
 	</div>
 	<div style="clear:both"></div>
-	<div id="Main">
+	<div id="main">
 		<div id="navigation">
 			<ul>
 				<li><a href="../about.html">About</a></li>
@@ -43,9 +43,15 @@
 		</div>
 		<div id="maincontainer">
 			<h1>Equipment</h1>
-			<h2>Gymnastic Rings</h2>
-			<p>description and price...</p>
-			<a href="#">Some Link or other...</a>
+			<div  style="background-image:url(../images/ringsThumb.jpg);">
+			<div class="item">
+				<!--<img src="../images/rings.jpg" height="200" width="200">-->
+				<h2><a href="rings.html">Gymnastic Rings</a></h2>
+				<p>The ultimate upper-body strength training tool.</p>
+				<a href="rings.html">View full details.</a>
+			</div>
+			</div>
+			<div style="clear:both"></div>
 			<h2>Voodoo floss</h2>
 			<p>description and price...</p>
 			<a href="#">Some Link or other...</a>
