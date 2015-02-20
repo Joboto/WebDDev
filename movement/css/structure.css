@@ -11,6 +11,7 @@ body{background-image:url("../images/movMonkei.jpg");color:black;font-family:San
 #weeImagesLeft{width:225px;float:left;border-left:2px solid black}
 #main{background:rgba(255,255,255,0.5);margin-top:10px;}
 #maincontainer{margin:auto;padding:5px;text-align:justify;width:50%;}
+#maincontainer table, th, td{border:1px solid black;border-collapse:collapse;background-color:rgba(255,255,255,0.5);}
 #weeImagesRight{width:225px;float:right;border-right:2px solid black}
 #footer{width:100%;margin:auto; font-size:1em} 
 #weelinks{width:30%;margin:auto;font-size:0.75em}
