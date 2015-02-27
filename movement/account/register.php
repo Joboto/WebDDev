@@ -8,12 +8,12 @@
 <body>
 <div id="container">
 	<div id="header">
-		<a href="index.php" id="logo"><div>
+		<a href="../" id="logo"><div>
 			<h1>MOVEMENT</h1>
 			<h4>Start yours...</h4>
 		</div></a>
 	<div id="loginbox">
-		<h4 style="margin:0">Login to view your account.</h4>
+		<h4 style="margin:0">Already have an account? Log-in...</h4>
 		<form>
 			<div style="float:left">
 				<label name="email" style="width:90%;text-align:left">Email address</label>
@@ -21,10 +21,13 @@
 				<input name="email" type="email" style="width:90%" />
 			</div>
 			<div style="float:right">
-				<label name="email" style="text-align:left">Password</label>
+				<label name="password" style="text-align:left">Password</label>
 				<br>
-				<input name="email" type="text" style="width:90%" />
+				<input name="password" type="text" style="width:90%" />
 			</div>
+			<div style="clear:both"></div>
+			<input name="login" type="submit" value="Log-in" style="height:23px">
+			
 		</form>
 	</div>
 	</div>
@@ -32,13 +35,13 @@
 	<div id="main">
 		<div id="navigation">
 			<ul>
-				<li><a href="about.html">About</a></li>
-				<li><a href="courses">Courses</a></li>
-				<li><a href="equipment">Equipment</a></li>
-				<li><a href="events">Events</a></li>
-				<li><a href="articles">Articles</a></li>
-				<li><a href="links.html">Links</a></li>
-				<li><a href="contact.php">Contact</a></li>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="../courses">Courses</a></li>
+				<li><a href="../equipment">Equipment</a></li>
+				<li><a href="../events">Events</a></li>
+				<li><a href="../articles">Articles</a></li>
+				<li><a href="../links.html">Links</a></li>
+				<li><a href="../contact.php">Contact</a></li>
 			</ul>
 		</div>
 		<div id="maincontainer">
@@ -72,12 +75,3 @@
 
 </body>
 </html>
-<!--<?php 
- session_start();
- if(isset($_SESSION['user'])){
-  echo "<script>window.location='member/member.php'</script>";
- } else {
-  echo "<script>window.location='account/login.php'</script>";
- }	
-?>-->
-

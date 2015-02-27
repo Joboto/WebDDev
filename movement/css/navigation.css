@@ -1,6 +1,2 @@
-#header ul {padding:1.25em 0 1.25em 0; list-style:none;}
-#header li {padding:0 0 0 1em; color:white;margin-left:20px;}
-#header a {display:block;padding-top:0.75em;text-decoration:none;
- text-align:left;font-weight:bold;color:white;}
+#header a {display:block;padding-top:0.75em;text-decoration:none; text-align:left;font-weight:bold;color:white;}
 #header a:hover {color:grey;}
- 

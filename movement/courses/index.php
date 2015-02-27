@@ -21,10 +21,13 @@
 				<input name="email" type="email" style="width:90%" />
 			</div>
 			<div style="float:right">
-				<label name="email" style="text-align:left">Password</label>
+				<label name="password" style="text-align:left">Password</label>
 				<br>
-				<input name="email" type="text" style="width:90%" />
+				<input name="password" type="text" style="width:90%" />
 			</div>
+			<div style="clear:both"></div>
+			<input name="login" type="submit" value="Log-in" style="height:23px">
+			<button type="button" style="height:23px" onclick="location.href='../account/register.php';">Register</button>
 		</form>
 	</div>
 	</div>
@@ -70,12 +73,3 @@
 
 </body>
 </html>
-<!--<?php 
- session_start();
- if(isset($_SESSION['user'])){
-  echo "<script>window.location='member/member.php'</script>";
- } else {
-  echo "<script>window.location='account/login.php'</script>";
- }	
-?>-->
-
