@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Movement - just move...</title>
 	<link rel="stylesheet" href="css/structure.css" type="text/css" />
 	<link rel="stylesheet" href="css/navigation.css" type="text/css" />
+	<script src="scripts/jquery-1.9.1.js"></script>
+	<script src="scripts/move.js"></script>
 </head>
 <body>
 <div id="container">
@@ -16,17 +19,17 @@
 		<h4 style="margin:0">Login to view your account.</h4>
 		<form>
 			<div style="float:left">
-				<label name="email" style="width:90%;text-align:left">Email address</label>
+				<label name="emailLabel" style="width:90%;text-align:left">Email address</label>
 				<br>
-				<input name="email" type="email" style="width:90%" />
+				<input id="email" name="email" type="email" style="width:90%" />
 			</div>
 			<div style="float:right">
-				<label name="password" style="text-align:left">Password</label>
+				<label name="passwordLabel" style="text-align:left">Password</label>
 				<br>
-				<input name="password" type="text" style="width:90%" />
+				<input id="password" name="password" type="text" style="width:90%" />
 			</div>
 			<div style="clear:both"></div>
-			<input name="login" type="submit" value="Log-in" style="height:23px">
+			<button type="button" style="height:23px" onclick="logmein();">Log in</button>
 			<button type="button" style="height:23px" onclick="location.href='account/register.php';">Register</button>
 		</form>
 	</div>
@@ -45,6 +48,7 @@
 			</ul>
 		</div>
 		<div id="maincontainer">
+		<button type="button" onclick="test()">Get test</button>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/Su0vLwyQTTI" frameborder="0" allowfullscreen></iframe>
 			<!--<iframe width="420" height="315" src="https://www.youtube.com/embed/fdWDvH8AITU" frameborder="0" allowfullscreen></iframe>-->
 			<p>Here you will find everything you need to get moving! From parkour to gymnastic strength to the subtleties of the Feldenkrais method.

@@ -4,6 +4,8 @@
 	<title>Movement - just move...</title>
 	<link rel="stylesheet" href="../css/structure.css" type="text/css" />
 	<link rel="stylesheet" href="../css/navigation.css" type="text/css" />
+	<script type="text/javascript" src="../scripts/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="../scripts/move.js"></script>
 </head>
 <body>
 <div id="container">
@@ -45,18 +47,17 @@
 			</ul>
 		</div>
 		<div id="maincontainer">
-			<form name="registerForm" method="post" action="../scripts/sendUserDetails.php">
+		<button type="button" onclick="test()">Get test</button>
+			<form id="registerForm" method="post" action="register()">
 				<label for="fname" style="width:25%;text-align:left;">First Name</label><br>
-				<input type="text" name="fname" /><br>
+				<input type="text" name="fname" id="fname"/><br>
 				<label for="lname" style="width:25%;text-align:left;">Last Name</label><br>
-				<input type="text" name="lname" /><br>
-				<label for="username" style="width:25%;text-align:left;">Create a Username</label><br>
-				<input type="text" name="username" /><br>
+				<input type="text" name="lname" id="lname"/><br>
 				<label for="email" style="width:25%;text-align:left;">Email address</label><br>
-				<input type="email" name="email"/><br>
+				<input type="email" name="email" id="email"/><br>
 				<label for="comments" style="width:50%;text-align:left;">Tell us a little bit about yourself...</label><br>
-				<textarea name="comments" maxlength="1000" cols="50" rows="10"></textarea><br>
-				<input type="Submit" value="Submit"/>
+				<textarea name="bio" id ="bio" maxlength="1000" cols="50" rows="10"></textarea><br>
+				<button type="button" onclick="register()">Submit</button>
 			</form>
 		</div>
 	</div>
